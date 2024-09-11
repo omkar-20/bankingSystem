@@ -29,3 +29,26 @@
 
 en:
   hello: "Hello world"
+  error:
+    transaction_params_not_present: "transaction type or amount is not present"
+    access_denied: "access denied"
+    email_password_not_present: "email or password is not present"
+    account_not_found: "Account not found"
+  success:
+    customer_deleted: "Customer Deleted Successfully"
+    profile_update_message: "Profile updated successfully"
+    transaction_created: "Transaction created successfully"
+    customer_status_updated: "Customer status updated to %{status}."
+  account_active: "active"
+  model_test_error:
+    cannot_blank: "can't be blank"
+    not_number: "is not a number"
+    greater_than_0: "must be greater than 0"
+    not_in_list: "is not included in the list"
+    not_available_balance: "is greater than available balance for withdrawal"
+    valid_email_address: "must be a valid email addres"
+    value_taken: "has already been taken"
+    valid_mobile_number: "must be 10 digits long and start with 7, 8, or 9"
+    balance_check: "must be greater than or equal to 0"
+  
+

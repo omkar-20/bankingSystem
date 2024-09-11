@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+  <h1>Hello <%= @customer.email %>,</h1>
+  <p>Your account has been successfully created. Here are your details:</p>
+  <ul>
+    <li>Email: <%= @customer.email %></li>
+    <li>Password: <%= @plain_password %></li>
+    <li>Account Number: <%= @account.account_number %></li>
+    <li>Initial Balance: <%= number_to_currency(@account.balance) %></li>
+  </ul>
+  <p>Thank you for joining us!</p>
+</body>
+</html>
